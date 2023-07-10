@@ -34,12 +34,13 @@
   <link rel="stylesheet" href="css/aos.css">
 
   <link rel="stylesheet" href="css/style.css">
-  <!-- swiper -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" /> -->
-  <link rel="stylesheet" href="swipper.css">
-  <!-- end swiper -->
 
+  <!-- swiper -->
+  <link rel="stylesheet" href="swiper.css">
+  <!--owl carousel-->
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+  <!-- end swiper -->
 
 
 </head>

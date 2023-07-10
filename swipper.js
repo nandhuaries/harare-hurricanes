@@ -1,37 +1,15 @@
-// const swiper = new Swiper(".swiper", {
-//   // Optional parameters
-//   direction: "vertical",
-//   loop: true,
-
-//   // If we need pagination
-//   pagination: {
-//     el: ".swiper-pagination",
-//   },
-
-//   // Navigation arrows
-//   navigation: {
-//     nextEl: ".swiper-button-next",
-//     prevEl: ".swiper-button-prev",
-//   },
-
-//   // And if we need scrollbar
-//   scrollbar: {
-//     el: ".swiper-scrollbar",
-//   },
-// });
-var swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper(".swiper-container.two", {
+  pagination: ".swiper-pagination",
+  paginationClickable: true,
   effect: "coverflow",
-  grabCursor: true,
+  loop: true,
   centeredSlides: true,
   slidesPerView: "auto",
-  coverflowEffect: {
-    rotate: 50,
-    stretch: 0,
-    depth: 100,
-    modifier: 1,
-    slideShadows: true,
-  },
-  pagination: {
-    el: ".swiper-pagination",
+  coverflow: {
+    rotate: 0,
+    stretch: 100,
+    depth: 150,
+    modifier: 1.5,
+    slideShadows: false,
   },
 });
