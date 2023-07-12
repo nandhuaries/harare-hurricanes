@@ -34,13 +34,44 @@
   <link rel="stylesheet" href="css/aos.css">
 
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css">
 
-  <!-- swiper -->
-  <link rel="stylesheet" href="swiper.css">
-  <!--owl carousel-->
-  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-  <!-- end swiper -->
+  <style>
+    @media(min-width: 998px) {
+
+    .swiper-container {
+      width: 100%;
+      margin: 0px 0;
+      padding: 140px 0;
+    }
+    }
+
+    @media(max-width: 997px) {
+      .swiper-container {
+        width: 100%;
+        margin: 0px 0;
+        padding: 70px 0;
+      }
+    }
+
+    .swiper-slide {
+      /* opacity: 0.4; */
+      overflow: hidden;
+      transition: 0.7s;
+    }
+
+    .swiper-slide img {
+      width: 100%;
+    }
+
+    .swiper-slide-active {
+      opacity: 1;
+      z-index: 1;
+      transform: scale(1.5);
+    }
+  </style>
+
 
 
 </head>
