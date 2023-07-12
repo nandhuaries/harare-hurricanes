@@ -25,23 +25,34 @@
         </div>
     </div>
 </div>
-<div class="swiper-container" style="background-image: url(https://royalchallengers.com/themes/custom/rcbbase/images/stadium/stadium-new.png);">
+<div class="swiper-container" style="background-image: url(https://wallpapercave.com/wp/wp3049863.jpg);">
     <div class="swiper-wrapper">
         <div class="swiper-slide">
             <img src="https://www.royalchallengers.com/PRRCB01/public/2023-04/virat%20kohli%20RCB.png" />
+            <div class="container">
+                <div class="row" style="background-color: white; width: 50px;">
+                    <div class="col-12">
+                        <p class="">Name nandhu nandhu nandhu</p>
+                    </div>
+                </div>
+            </div>
             <!-- <h2 style="text-align:center ;color: black; background-color: white; padding: 0px 10px 10px 10px">askjdasjdlaksd</h2> -->
         </div>
         <div class="swiper-slide">
             <img src="https://www.royalchallengers.com/PRRCB01/public/2023-03/faf%20du%20plessis%20RCB.png" />
+            <div class="hide">I am shown when someone hovers over the div above.</div>
         </div>
         <div class="swiper-slide">
             <img src="https://www.royalchallengers.com/PRRCB01/public/2023-03/Shahbaz%20Ahamad%20RCB.png" />
+            <div class="hide">I am shown when someone hovers over the div above.</div>
         </div>
         <div class="swiper-slide">
             <img src="https://www.royalchallengers.com/PRRCB01/public/2023-03/Finn%20Allen%20RCB.png" />
+            <div class="hide">I am shown when someone hovers over the div above.</div>
         </div>
         <div class="swiper-slide">
             <img src="https://www.royalchallengers.com/PRRCB01/public/2023-03/anuj%20rcb.png" />
+            <div class="hide">I am shown when someone hovers over the div above.</div>
         </div>
     </div>
     <div class="swiper-button-next"></div>

@@ -40,11 +40,11 @@
   <style>
     @media(min-width: 998px) {
 
-    .swiper-container {
-      width: 100%;
-      margin: 0px 0;
-      padding: 140px 0;
-    }
+      .swiper-container {
+        width: 100%;
+        margin: 0px 0;
+        padding: 140px 0;
+      }
     }
 
     @media(max-width: 997px) {
@@ -70,10 +70,20 @@
       z-index: 1;
       transform: scale(1.5);
     }
+
+    /* styles for popup of players */
+    /* .hide {
+      display: none;
+    }
+
+    .swiper-slide-active:hover .hide {
+      display: block;
+      background-color: aqua;
+      font-size: 50px;
+    } */
+
+    /* end styles for popup of players */
   </style>
-
-
-
 </head>
 
 <body>
