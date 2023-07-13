@@ -6,44 +6,51 @@
   height: 75vh;
   position: relative;
 }
-.para{
-    font-weight: bold;
+.para {
+  font-weight: bold;
 }
-.bann{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* align-items: center; */
-    border-radius: 5px;
+.bann {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  border-radius: 5px;
 }
 .bann.overlay:before {
-    content: "";
-    position: absolute;
-    background: rgba(0, 0, 0, 0.9);
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
-  .bann p{
-    position: relative;
-    color: white;
-  }
-  .bann button{
-    position: relative;
-  }
-  .brudCrumbs{
-    color: white;
-  }
-  .brudCrumbs:hover{
-    color: #ee1e46;
-  }
-  .innerBann{
-    position: relative;
-    color: white;
-  }
-.formHead{
-    color: yellow;
-    font-weight: bold;
-    text-decoration: wavy;
+  content: "";
+  position: absolute;
+  background: rgba(0, 0, 0, 0.9);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.bann p {
+  position: relative;
+  color: white;
+}
+.bann button {
+  position: relative;
+}
+.brudCrumbs {
+  color: white;
+}
+.brudCrumbs:hover {
+  color: #ee1e46;
+}
+.innerBann {
+  position: relative;
+  color: white;
+}
+.formHead {
+  color: yellow;
+  font-weight: bold;
+  text-decoration: wavy;
+}
+.newsHead:hover {
+  color: yellow;
+}
+
+.post-entry .caption-inner h3:hover {
+  color: yellow;
 }
