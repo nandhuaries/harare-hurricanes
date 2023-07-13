@@ -9,3 +9,32 @@
 .para{
     font-weight: bold;
 }
+.bann{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.bann.overlay:before {
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .bann p{
+    position: relative;
+    color: white;
+  }
+  .bann button{
+    position: relative;
+  }
+  .brudCrumbs{
+    color: white;
+  }
+  .brudCrumbs:hover{
+    color: #ee1e46;
+  }

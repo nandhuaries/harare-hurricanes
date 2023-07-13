@@ -4,19 +4,17 @@
         <div class="row align-items-center">
             <div class="col-lg-9 mx-auto text-center">
                 <h1 class="text-white">Sing The Anthem</h1>
-                <p class="text-white para"><a style="color: white;" href="./">Home</a><span class="mx-3">|</span>Sing The Anthem</p> 
+                <p class="text-white para"><a class="brudCrumbs" href="./">Home</a><span class="mx-3">|</span>Sing The Anthem</p>
             </div>
-            <div class="col-lg-9 mx-auto text-center">
-                
-            </div>
+            <div class="col-lg-9 mx-auto text-center"></div>
         </div>
     </div>
 </div>
 <!-- contact -->
 <div class="site-section">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-7">
+        <div class="row ">
+            <div class="col-lg-6">
 
                 <form id="registration" name="registration" method="post" enctype="multipart/form-data" action="singing-anthem-action.php" method="POST" name="">
 
@@ -54,24 +52,9 @@
             </div>
 
 
-            <div class="col-lg-4 ml-auto">
-
-                <ul class="list-unstyled">
-                    <li class="mb-2">
-                        <strong class="text-white d-block">Address</strong>
-                        273 South Riverview Rd. <br> New York, NY 10011
-                    </li>
-                    <li class="mb-2">
-                        <strong class="text-white d-block">Email</strong>
-                        <a href="#">info@unslate.co</a>
-                    </li>
-                    <li class="mb-2">
-                        <strong class="text-white d-block">
-                            Phone
-                        </strong>
-                        <a href="#">+12 345 6789 012</a>
-                    </li>
-                </ul>
+            <div class="col-lg-6 ml-auto bann overlay rounded" style="background-image: url(images/bg/common-bg-crop.jpg); background-size: cover; background-position: center; position:relative;">
+                <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, molestias nostrum fuga quidem id laudantium, aperiam culpa expedita, maxime esse officiis fugit est inventore quo accusantium consectetur ipsum doloribus nobis.</p>
+                <button class="btn btn-primary py-3 px-5">Download</button>
             </div>
         </div>
     </div>
