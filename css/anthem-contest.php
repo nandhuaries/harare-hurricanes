@@ -64,8 +64,8 @@
 
 
             <div class="col-lg-6 ml-auto bann overlay rounded mb-5" style="background-image: url(images/bg/common-bg-crop.jpg); background-size: cover; background-position: center; position:relative;">
-                <div class="innerBann p-3 row justify-content-center">
-                    <h4 class="text-justify formHead">
+                <div class="innerBann p-3">
+                    <h4 class="text-justify">
                         Rules and Regulations
                     </h4>
                     <ul>
@@ -82,7 +82,7 @@
                             All entries must be received on or before 18th July 2023
                         </li>
                     </ul>
-                    <h4 class="formHead">What do you win?</h4>
+                    <h4>What do you win?</h4>
                     <ul>
                         <li>
                             A never before opportunity to sing Harare Hurricanes Anthem live on the T10 stage.
@@ -94,74 +94,71 @@
                             The video will be promoted through all our social media channels
                         </li>
                     </ul>
-                    <div>
-                        <a href="#">
-                            <button class="btn btn-primary py-3 px-5">Download Track</button>
-                        </a>
-                    </div>
+                    <a href="#">
+                        <button class="btn btn-primary py-3 px-5">Download Track</button>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!-- end contact -->
-<?php include 'footer.php'; ?>
-<script src="js/jquery.validate.js"></script>
-<script src="https://www.google.com/recaptcha/api.js"></script>
+    <!-- end contact -->
+    <?php include 'footer.php'; ?>
+    <script src="js/jquery.validate.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
 
 
-<script type="text/javascript">
-    var validate = $("#registration").validate({
-        rules: {
-            name: "required",
-            age: "required",
-            phone: "required",
-            email: "required",
-            occupation: "required",
-            profile: "required",
+    <script type="text/javascript">
+        var validate = $("#registration").validate({
+            rules: {
+                name: "required",
+                age: "required",
+                phone: "required",
+                email: "required",
+                occupation: "required",
+                profile: "required",
 
 
 
 
-        },
-        messages: {
-            name: "Please enter your name.",
-            age: "Please enter your age.",
-            phone: "Please enter your contact number.",
-            email: "Please enter a valid email address.",
-            occupation: "Please enter your occupation.",
-            profile: "Please upload your document.",
+            },
+            messages: {
+                name: "Please enter your name.",
+                age: "Please enter your age.",
+                phone: "Please enter your contact number.",
+                email: "Please enter a valid email address.",
+                occupation: "Please enter your occupation.",
+                profile: "Please upload your document.",
 
 
-        },
-        errorPlacement: function(error, element) {
-            if (element.attr("type") == "checkbox") {
-                error.insertAfter("#caterr");
-            } else {
-                error.insertAfter(element);
+            },
+            errorPlacement: function(error, element) {
+                if (element.attr("type") == "checkbox") {
+                    error.insertAfter("#caterr");
+                } else {
+                    error.insertAfter(element);
+                }
+
+            },
+
+
+            submitHandler: function() {
+                if (grecaptcha.getResponse() == "") {
+                    alert("Are you a robot? Don't be shy, complete the reCaptcha! ?");
+                    return false;
+                }
+                // call your function
+                $('#submit').hide();
+                $('#waitmsg').show();
+                return true;
             }
 
-        },
 
+        });
+    </script>
 
-        submitHandler: function() {
-            if (grecaptcha.getResponse() == "") {
-                alert("Are you a robot? Don't be shy, complete the reCaptcha! ?");
-                return false;
-            }
-            // call your function
-            $('#submit').hide();
-            $('#waitmsg').show();
-            return true;
+    <style type="text/css">
+        .error {
+            color: red;
+            font-weight: bold;
         }
-
-
-    });
-</script>
-
-<style type="text/css">
-    .error {
-        color: red;
-        font-weight: bold;
-    }
-</style>
+    </style>
