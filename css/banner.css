@@ -13,13 +13,13 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     border-radius: 5px;
 }
 .bann.overlay:before {
     content: "";
     position: absolute;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.9);
     top: 0;
     left: 0;
     right: 0;
@@ -38,3 +38,12 @@
   .brudCrumbs:hover{
     color: #ee1e46;
   }
+  .innerBann{
+    position: relative;
+    color: white;
+  }
+.formHead{
+    color: yellow;
+    font-weight: bold;
+    text-decoration: wavy;
+}

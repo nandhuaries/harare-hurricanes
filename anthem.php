@@ -117,5 +117,6 @@
 <style type="text/css">
     .error {
         color: red;
+        font-weight: bold;
     }
 </style>
