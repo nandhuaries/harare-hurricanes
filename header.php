@@ -36,6 +36,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/swiper-bundle.min.css" />
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/banner.css">
 
   <style>
     @media(min-width: 998px) {
@@ -174,7 +175,7 @@
                     <li class="menutext last"><a href="about#contact">Contact Us</a></li>
                   </ul>
                 </li>
-
+                <li class=""><a href="./" class="nav-link">Sing The Anthem</a></li>
 
               </ul>
             </nav>
