@@ -1,8 +1,11 @@
+<?php
+$pagename=basename($_SERVER['PHP_SELF']);
+?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <title>HARARE HURRICANES</title>
+  <!-- <title>HARARE HURRICANES</title> -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -15,8 +18,39 @@
   <meta property="og:title" content="HARARE HURRICANES " />
   <meta property="og:description" content="The latest announcement from Zimbabwe Cricket is that Harare Hurricanes, one of the five teams in the contest, has been acquired by the legendary Bollywood star Sanjay Dutt along with UAE based businessman Sir Sohan Roy of Aries group" />
 
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <?php if($pagename == "index.php") { ?> 
+  <title>HARARE HURRICANES</title>
+  <meta property="og:url" content="https://www.hararehurricane.com/"/>
+  <meta property="og:title" content="HARARE HURRICANES " />
 
+  <?php } if($pagename=="team.php") { ?>
+  <title>Players | Harare Hurricanes</title>
+  <meta property="og:url" content="https://www.hararehurricanes.com/team"/>
+  <meta property="og:title" content="Players | Harare Hurricanes" />
+
+  <?php } if($pagename=="about.php") { ?>
+  <title>About | Harare Hurricanes</title>
+  <meta property="og:url" content="https://www.hararehurricanes.com/about"/>
+  <meta property="og:title" content="About | Harare Hurricanes" />
+
+  <?php } if($pagename=="press-releases.php") { ?>
+  <title>Press Releases | Harare Hurricanes</title>
+  <meta property="og:url" content="https://hararehurricanes.com/press-releases"/>
+  <meta property="og:title" content="Press Releases | Harare Hurricanes" />
+
+<?php } if($pagename=="anthem-contest.php") { ?>
+  <title>Anthem Contest Registration | Harare Hurricanes</title>
+  <meta property="og:url" content="https://hararehurricanes.com/anthem-contest"/>
+  <meta property="og:title" content="Anthem Contest Registration | Harare Hurricanes" />
+
+  <?php } if($pagename=="zim-afro.php" || $pagename=="gallery.php" || $pagename =="fan-zone.php") { ?>
+    <title>HARARE HURRICANES</title>
+  <meta property="og:url" content="https://www.hararehurricane.com/"/>
+  <meta property="og:title" content="HARARE HURRICANES " />
+  <?php } ?> 
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="images/fav.png">
   <link rel="stylesheet" href="fonts/icomoon/style.css">
 
   <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
@@ -52,8 +86,7 @@
       .swiper-container {
         width: 100%;
         margin: 0px 0;
-        /* padding: 70px 0; */
-        padding: 140px 0;
+        padding: 70px 0;
       }
     }
 
@@ -71,7 +104,6 @@
       opacity: 1;
       z-index: 1;
       transform: scale(1.5);
-      /* transform: scale(1.8); */
     }
 
     /* styles for popup of players */
@@ -86,27 +118,6 @@
     } */
 
     /* end styles for popup of players */
-
-    /* chatgpt styles */
-    .slide {
-      position: relative;
-    }
-
-    .player-name {
-      position: absolute;
-      top: 50%;
-      /* bottom: 0; */
-      left: 50%;
-      transform: translateX(-50%);
-      /* background-color: rgba(0, 0, 0, 0.7); */
-      background-color: white;
-      /* color: #fff; */
-      color: black;
-      font-size: 14px;
-      padding: 5px 10px;
-    }
-
-    /* end chatgpt styles */
   </style>
 </head>
 
@@ -198,7 +209,7 @@
                     <li class="menutext last"><a href="about#contact">Contact Us</a></li>
                   </ul>
                 </li>
-                <li class=""><a href="anthem-contest.php" class="nav-link">Sing The Anthem</a></li>
+                <li class=""><a href="anthem-contest" class="nav-link">Sing The Anthem</a></li>
 
               </ul>
             </nav>
