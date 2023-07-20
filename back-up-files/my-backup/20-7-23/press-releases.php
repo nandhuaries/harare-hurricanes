@@ -50,24 +50,11 @@
 </style>
 
 
-<div class="hero overlay banner">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-lg-9 mx-auto text-center">
-        <h1 class="text-white">Press Releases</h1>
-        <p class="text-white para"><a class="brudCrumbs" href="./">Home</a><span class="mx-3">|</span>Press Releases</p>
-      </div>
-      <div class="col-lg-9 mx-auto text-center"></div>
-    </div>
-  </div>
-</div>
-
-
 
 <div class="latest-news">
   <div class="container">
 
-    <div class="row" >
+    <div class="row" style="margin-top:100px;">
       <div class="col-12 title-section">
         <h2 class="heading" style="font-size:30px;font-weight:600">Latest News</h2>
       </div>
@@ -205,7 +192,7 @@
 
     </div>
 
-
+    
 
 
   </div>
