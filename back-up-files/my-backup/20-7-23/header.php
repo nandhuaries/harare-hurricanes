@@ -107,22 +107,6 @@
     }
 
     /* end chatgpt styles */
-    /* banner responsive */
-    .hero {
-      background-image: url('images/harare-home-banner-1.jpg');
-      position: relative;
-      background-repeat: no-repeat;
-      height: 125vh !important;
-    }
-
-    @media only screen and (min-width: 320px) and (max-width: 992px) {
-      .hero {
-        background-size: contain;
-        height: 70vh !important;
-      }
-    }
-
-    /* end banner responsive */
   </style>
 </head>
 

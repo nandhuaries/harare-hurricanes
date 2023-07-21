@@ -14,6 +14,7 @@
         padding: 10px
     }
 </style>
+<a id="button"></a>
 <!-- height:120vh; removed class from background image -->
 <div class="hero overlay bg-imgs">
     <!-- <div class="container">

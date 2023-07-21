@@ -1,4 +1,5 @@
 <?php include 'header.php'; ?>
+<link rel="stylesheet" href="css/banner.css">
 
 <style type="text/css">
   .hero .overlay:before {
@@ -50,7 +51,7 @@
 </style>
 
 
-<div class="hero overlay banner">
+<div class="hero hero1 overlay banner" style="height: 75vh !important;">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-lg-9 mx-auto text-center">

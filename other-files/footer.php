@@ -61,13 +61,11 @@
 <script src="js/swiper-bundle.min.js"></script>
 <script>
   const swiper = new Swiper(".swiper-container", {
-    allowTouchMove: false,
     centeredSlides: true,
     loop: true,
     speed: 500,
     slidesPerView: 1.5,
     spaceBetween: 100,
-    touchMoveStopPropagation: true,
     //                      autoplay: {
     //                          delay: 3000,
     //                      },
@@ -81,27 +79,17 @@
     },
     simulateTouch: false,
     breakpoints: {
-      // 
-      320: {
-        slidesPerView: 2.5,
-        spaceBetweenSlides: 20
-      },
-      // 
       640: {
-        // slidesPerView: 2.5
-        slidesPerView: 3.5,
-        spaceBetweenSlides: 50
+        slidesPerView: 2.5
       },
       768: {
         slidesPerView: 2.75
       },
       1080: {
-        slidesPerView: 3.25,
-        spaceBetweenSlides: 200
+        slidesPerView: 3.25
       },
       1280: {
-        slidesPerView: 3.75,
-        spaceBetweenSlides: 200
+        slidesPerView: 3.75
       }
     }
   });

@@ -1,13 +1,12 @@
 <?php include 'header.php'; ?>
 <style>
-    .players-name {
+    .players-name{
         background: white;
         text-align: center;
         color: black;
         display: none
     }
-
-    .players-name h2 {
+    .players-name h2{
         color: black;
         font-size: 16px;
         margin: 0px 10px;
@@ -15,7 +14,7 @@
     }
 </style>
 <!-- height:120vh; removed class from background image -->
-<div class="hero overlay bg-imgs">
+<div class="hero overlay" style="background-image: url('images/harare-home-banner-1.jpg');position:relative; background-repeat: no-repeat;">
     <!-- <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-5 ml-auto">
@@ -31,7 +30,7 @@
     </div> -->
 </div>
 <!-- players slider -->
-<div class="container" style="padding: 40px 0 0px 0;">
+<!-- <div class="container" style="padding: 40px 0 0px 0;">
     <div class="col-12 title-section">
         <div class="row text-center justify-content-center">
             <h2 class="heading" style="font-size:30px;font-weight:600">THE SQUAD</h2>
@@ -146,7 +145,7 @@
     </div>
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
-</div>
+</div> -->
 <!-- end players slider -->
 
 

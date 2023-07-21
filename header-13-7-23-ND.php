@@ -52,8 +52,7 @@
       .swiper-container {
         width: 100%;
         margin: 0px 0;
-        /* padding: 70px 0; */
-        padding: 140px 0;
+        padding: 70px 0;
       }
     }
 
@@ -71,7 +70,6 @@
       opacity: 1;
       z-index: 1;
       transform: scale(1.5);
-      /* transform: scale(1.8); */
     }
 
     /* styles for popup of players */
@@ -86,43 +84,6 @@
     } */
 
     /* end styles for popup of players */
-
-    /* chatgpt styles */
-    .slide {
-      position: relative;
-    }
-
-    .player-name {
-      position: absolute;
-      top: 50%;
-      /* bottom: 0; */
-      left: 50%;
-      transform: translateX(-50%);
-      /* background-color: rgba(0, 0, 0, 0.7); */
-      background-color: white;
-      /* color: #fff; */
-      color: black;
-      font-size: 14px;
-      padding: 5px 10px;
-    }
-
-    /* end chatgpt styles */
-    /* banner responsive */
-    .hero {
-      background-image: url('images/harare-home-banner-1.jpg');
-      position: relative;
-      background-repeat: no-repeat;
-      height: 125vh !important;
-    }
-
-    @media only screen and (min-width: 320px) and (max-width: 992px) {
-      .hero {
-        background-size: contain;
-        height: 70vh !important;
-      }
-    }
-
-    /* end banner responsive */
   </style>
 </head>
 
@@ -214,7 +175,7 @@
                     <li class="menutext last"><a href="about#contact">Contact Us</a></li>
                   </ul>
                 </li>
-                <li class=""><a href="anthem-contest.php" class="nav-link">Sing The Anthem</a></li>
+                <!-- <li class=""><a href="./" class="nav-link">Sing The Anthem</a></li> -->
 
               </ul>
             </nav>

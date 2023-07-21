@@ -36,7 +36,8 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/swiper-bundle.min.css" />
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/banner.css">
+ <link rel="stylesheet" href="back-top.css">
+ <script src="back-to-top.js"></script>
 
   <style>
     @media(min-width: 998px) {
@@ -121,9 +122,23 @@
         height: 70vh !important;
       }
     }
+    .heroo {
+      /* background-image: url('images/harare-home-banner-1.jpg'); */
+      position: relative;
+      background-repeat: no-repeat;
+      height: 75vh;
+    }
+
+    @media only screen and (min-width: 320px) and (max-width: 992px) {
+      /* .hero0 {
+        background-size: contain;
+        height: 70vh !important;
+      } */
+    }
 
     /* end banner responsive */
   </style>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 
 <body>
