@@ -49,7 +49,7 @@
     </div> -->
 </div>
 <!-- players slider -->
-<div class="container" style="padding: 40px 0 0px 0;">
+<!-- <div class="container" style="padding: 40px 0 0px 0;">
     <div class="col-12 title-section">
         <div class="row text-center justify-content-center">
             <h2 class="heading" style="font-size:30px;font-weight:600">THE SQUAD</h2>
@@ -164,7 +164,7 @@
     </div>
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
-</div>
+</div> -->
 <!-- end players slider -->
 
 

@@ -33,7 +33,7 @@
     }
 </style>
 <!-- height:120vh; removed class from background image -->
-<div class="hero overlay" style="background-image: url('images/harare-home-banner-1.jpg');position:relative; background-repeat: no-repeat;">
+<div class="hero overlay bg-imgs">
     <!-- <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-5 ml-auto">

@@ -13,27 +13,9 @@
         margin: 0px 10px;
         padding: 10px
     }
-
-    @media only screen and (max-width: 600px) {
-        .players-name {
-            background: white;
-            /* height: 2px; */
-            text-align: center;
-            color: black;
-            display: none
-        }
-
-        .players-name h2 {
-            color: black;
-            /* font-size: 16px; */
-            font-size: 10px;
-            margin: 0px 10px;
-            padding: 10px
-        }
-    }
 </style>
 <!-- height:120vh; removed class from background image -->
-<div class="hero overlay" style="background-image: url('images/harare-home-banner-1.jpg');position:relative; background-repeat: no-repeat;">
+<div class="hero overlay bg-imgs">
     <!-- <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-5 ml-auto">
