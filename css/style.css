@@ -837,7 +837,7 @@ h5,
 .hero.overlay:before {
   content: "";
   position: absolute;
-  background: rgba(0, 0, 0, 0.5);
+  /* background: rgba(0, 0, 0, 0.5); */
   top: 0;
   left: 0;
   right: 0;
@@ -1204,7 +1204,8 @@ h5,
   margin-bottom: 0;
 }
 .custom-table thead tr th {
-  background: #ffff00;
+  /* background: #ffff00; */
+  background: #ee1e46;
   color: #fff;
   border: none;
 }
@@ -1220,7 +1221,8 @@ h5,
 }
 
 .footer-section {
-  padding: 70px 0;
+  /* padding: 70px 0; */
+  padding: 1px 0 34px 0;
   font-size: 14px;
   color: rgba(255, 255, 255, 0.5);
   background: #1a1e25;
